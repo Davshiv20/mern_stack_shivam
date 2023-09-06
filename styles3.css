@@ -1,0 +1,24 @@
+/* Style the horizontal navigation bar */
+.horizontal-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f17373;
+}
+
+.horizontal-nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.horizontal-nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+.horizontal-nav a:hover {
+    background-color: #555;
+}

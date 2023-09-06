@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style the table headers */
+th {
+    background-color: #626de9;
+  
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style the table data cells */
+td {
+   
+    text-align: left;
+    padding: 8px;
+}
+
+/* Alternate row background color for better readability */
+tr:nth-child(even) {
+    background-color: #e8fbfc;
+}
+tr:nth-last-child(odd)
+{
+    background-color: #abf3f7;
+}
